@@ -7,6 +7,7 @@
         "start": "node .",
         "build": "tsc",
         "test": "echo \"Error: no test specified\" && exit 1",
+        "bdd":  "cucumber-js",
         "dev": "ts-node-dev --respawn --no-deps --rs --cls ./src/index.ts",
         "eslint": "eslint src/**/*.ts"
     },
@@ -24,6 +25,7 @@
     },
     "license": "MIT",
     "devDependencies": {
+        "@cucumber/cucumber": "^9.1.2",
         "@types/node": "18.11.18",
         "@typescript-eslint/eslint-plugin": "5.47.1",
         "@typescript-eslint/parser": "5.46.1",
